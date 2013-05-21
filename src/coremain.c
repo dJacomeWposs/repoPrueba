@@ -116,7 +116,7 @@ int VirginInit(void)
 
   // Clear Up all old files
   found = fDSearchMW(TRUE, &file_hdr);
-  while (found != -1) {
+  while (found != -1) {// Esta rutina borra todos los archivos existentes
     fDeleteMW(file_hdr.sb_name);
     found = fDSearchMW(TRUE, &file_hdr);
   }
