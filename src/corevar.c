@@ -98,7 +98,7 @@ struct TOKEN_1 gToken_1;
 struct TOKEN_3PSP gToken_3psp;
 struct TOKEN_3PTC gToken_3ptc;
 
-WORD gPort = 7777;
+WORD gPort = 7771;
 BYTE gIpAddr[4] = { 10, 0, 0, 30 };
 
 int gShowMsgInit;
