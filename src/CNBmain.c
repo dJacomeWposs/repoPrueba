@@ -145,8 +145,8 @@ struct MENU_ITEM KSumMenu05Item [] =
   {  3, "INFORMES"},
   {  4, "OPERADOR"},
   {  5, "OTROS"},
-  //{  6, "CONSULTA SALDO CNB"},
-  //{  7, "MENSAJES CAMPO 60"},
+  {  6, "CONSULTA SALDO CNB"},
+  {  7, "MENSAJES CAMPO 60"},
   {-1, NULL},
 };
 
