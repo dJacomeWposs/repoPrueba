@@ -239,6 +239,7 @@ static const struct MENU_DAT KFuncMenu  = {
 void ClearReversal(void)
 {
   int i;
+  int x; //Variable de prueba para Edwin
 
   DispLineMW("CLEAR REVERSAL", MW_LINE1, MW_CLRDISP|MW_REVERSE|MW_CENTER|MW_BIGFONT);
   if (!APM_GetAccessCode())

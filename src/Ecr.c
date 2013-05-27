@@ -111,6 +111,7 @@ const WORD *KEcrRespTbl[MAX_ECREDC_CMD] = {
 //*****************************************************************************
 DDWORD EcrGetAmount(void)
 {
+  //Comentaroi de prueba para git
   BYTE *pb, *pbTlv;
   DWORD ecrdata_len;
 
