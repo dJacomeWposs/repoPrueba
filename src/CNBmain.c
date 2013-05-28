@@ -59,7 +59,7 @@ struct MENU_ITEM KMenuPpalItem [] =
   {  4, "PAGOS"},
   {  5, "ADMINISTRATIVO"},
   {  6, "APAGAR / REINICIAR"},
-  {  7, "OPCION CONFLICTO"},
+  {  7, "CONFLICTO"},
   {-1, NULL},
 };
 
