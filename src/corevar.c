@@ -125,8 +125,8 @@ BYTE gAuxStan[12 + 1];
 //----------------------------------------------------------------------
 //  Application data file
 //----------------------------------------------------------------------
-static const char KTcpIpTblFile[] = {"TcpIpTbl"};
-struct TCPIP *gTcpIpOffset=0;
+static const char KTcpIpTblFile[] = {"TcpIpTbl"};//Variable que contiene el nombre del archivo para almacenar la config TCP
+struct TCPIP *gTcpIpOffset=0;//Puntero de tipo struct TCP
 int gTcpIpFd = -1;
 
 static const char KUsersFile[] = {"UsersTbl"};

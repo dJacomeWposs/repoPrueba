@@ -59,7 +59,7 @@ struct MENU_ITEM KMenuPpalItem [] =
   {  4, "PAGOS"},
   {  5, "ADMINISTRATIVO"},
   {  6, "APAGAR / REINICIAR"},
-  {  7, "NUEVA OPCION"},
+  {  7, "OPCION CONFLICTO"},
   {-1, NULL},
 };
 
@@ -146,8 +146,8 @@ struct MENU_ITEM KSumMenu05Item [] =
   {  3, "INFORMES"},
   {  4, "OPERADOR"},
   {  5, "OTROS"},
-  //{  6, "CONSULTA SALDO CNB"},
-  //{  7, "MENSAJES CAMPO 60"},
+  {  6, "CONSULTA SALDO CNB"},
+  {  7, "MENSAJES CAMPO 60"},
   {-1, NULL},
 };
 
